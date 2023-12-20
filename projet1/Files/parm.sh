@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "Les paramètres passés sont : \$1 = $1, \$2 = $2, \$3 = $3"
