@@ -1,3 +1,9 @@
 #!/bin/bash
 
-echo "Les paramètres passés sont : \$1 = $1, \$2 = $2, \$3 = $3"
+echo "Les paramètres passés sont :"
+
+# Boucle à travers les paramètres passés
+for param in "$@"; do
+    echo "\$${#}: $param"
+done
+
